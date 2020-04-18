@@ -1,16 +1,7 @@
 <!-- 
-  простите, если непривычен формат кода. это prettier.
-  я ещё не научился его настраивать.
-
-  например, не знаю, как отучить его закрывать непарные
-  теги <img src="" />. я хочу, чтобы было так <img src="">
-  на тостере пока тихо https://qna.habr.com/q/752451
-
-  ещё у меня вопрос был (https://qna.habr.com/q/752457),
-  на который не получил ответ. у меня macbook. и когда я ставлю одинарную
-  кавычку, а потом пишу букву, то происходит какая-то чёрная магия:
-  вместо «'a» я получаю «á». + странное поведение двойныйх кавычек, тоже
-  не знаю, как исправить. вы не знаете? :)
+  (https://qna.habr.com/q/752457) Спасибо за подсказку! У меня была раскладка
+  «США — международная PC», а с делал стандартную маковскую ABC.
+  теперь всё работает, как надо :)
 -->
 <!DOCTYPE html>
 <html lang="ru">
@@ -68,7 +59,7 @@
 
         <section class="digits">
           <h2 class="section-title">Цифры и факты</h2>
-          <h3 class="section-subtitle">Про учёбу и мозг</h3>
+          <p class="section-subtitle">Про учёбу и мозг</p>
           <div class="table">
             <div class="table__cell">
               <h4 class="table__heading">86 миллиардов</h4>
@@ -78,7 +69,7 @@
             </div>
             <div class="table__cell">
               <h4 class="table__heading">2.1 миллиарда</h4>
-              <p class="table__text padding-bottom_20">
+              <p class="table__text table__text_padding-bottom_20">
                 Число нуждающихся в повышении квалификации
               </p>
               <p class="table__text">Всемирный Банк, 2017</p>
@@ -96,7 +87,7 @@
             </div>
             <div class="table__cell">
               <h4 class="table__heading">420 миллионов</h4>
-              <p class="table__text padding-bottom_20">
+              <p class="table__text table__text_padding-bottom_20">
                 Число взрослых людей моложе 25 лет, не имеющих образования для
                 трудоустройства
               </p>
@@ -125,7 +116,7 @@
 
         <section class="kaufman">
           <h2 class="section-title">Принципы обучения</h2>
-          <h3 class="section-subtitle">от Джоша Кауфмана</h3>
+          <p class="section-subtitle">от Джоша Кауфмана</p>
           <div class="table">
             <div class="table__cell table__cell_theme_dark">
               <h4 class="table__heading">1</h4>
@@ -194,43 +185,47 @@
             <div class="logo logo_place_footer"></div>
             <p class="footer__author">© 2020. Георгий Хомалдишвили</p>
           </div>
-          <div class="footer__column_content_info">
-            <p class="footer__column-heading">О Практикуме</p>
-            <a href="#" class="footer__column-links">Главная</a>
-            <a href="#" class="footer__column-links">Концепция</a>
-            <a href="#" class="footer__column-links">Наставники</a>
-          </div>
-          <!-- 
-            я оставлю alt логотипов пустыми, опираясь на
-            https://habr.com/ru/post/341810/
-           -->
-          <div class="footer__column_content_social">
-            <p class="footer__column-heading">Соцсети</p>
-            <a href="#" class="footer__column-links"
-              ><img
-                src="./images/facebook_color_white.svg"
-                class="footer__social-icon"
-                alt=""
-              />
-              Facebook</a
-            >
-            <a href="#" class="footer__column-links">
-              <img
-                src="./images/vk_color_white.svg"
-                class="footer__social-icon"
-                alt=""
-              />
-              ВКонтакте
-            </a>
-            <a href="#" class="footer__column-links"
-              ><img
-                src="./images/instagram_color_white.svg"
-                class="footer__social-icon"
-                alt=""
-              />
-              Instagram</a
-            >
-          </div>
+          <ul class="footer__column_content_info">
+            <li><p class="footer__column-heading">О Практикуме</p></li>
+            <li><a href="#" class="footer__column-links">Главная</a></li>
+            <li><a href="#" class="footer__column-links">Концепция</a></li>
+            <li><a href="#" class="footer__column-links">Наставники</a></li>
+          </ul>
+          <ul class="footer__column_content_social">
+            <li><p class="footer__column-heading">Соцсети</p></li>
+            <li>
+              <a href="#" class="footer__column-links" target="_blank"
+                ><img
+                  src="./images/facebook_color_white.svg"
+                  class="footer__social-icon"
+                  alt="Логотип Facebook"
+                />
+                Facebook
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="footer__column-links" target="_blank">
+                <img
+                  src="./images/vk_color_white.svg"
+                  class="footer__social-icon"
+                  alt="Логотип ВКонтакте"
+                />
+                ВКонтакте
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="footer__column-links" target="_blank"
+                ><img
+                  src="./images/instagram_color_white.svg"
+                  class="footer__social-icon"
+                  alt="Логотип Instagram"
+                />
+                Instagram
+              </a>
+            </li>
+          </ul>
         </div>
       </footer>
     </div>
