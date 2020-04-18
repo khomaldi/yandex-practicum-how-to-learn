@@ -20,7 +20,6 @@
 h1,
 h2,
 h3,
-h4,
 p {
   margin: 0;
 }
@@ -345,6 +344,10 @@ p {
   line-height: 25px;
 }
 
+.footer__column_content_info {
+  list-style: none;
+}
+
 .footer__column-heading {
   padding-bottom: 20px;
   font-size: 18px;
@@ -363,6 +366,10 @@ p {
 
 .footer__column-links:last-of-type {
   padding-bottom: 16px;
+}
+
+.footer__column_content_social {
+  list-style: none;
 }
 
 .footer__social-icon {
