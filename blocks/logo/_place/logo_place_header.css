@@ -1,0 +1,14 @@
+.logo_place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  width: 184px;
+  /* 
+   * width я вынужден установить 184, а не 183 как в брифе,
+   * потому что при ширине 183px часть буквы M режется.
+   * обратил на это внимание, когда добавлял лого в footer.
+   */
+  height: 32px;
+  background-image: url(../../../images/logo_place_header.svg);
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,17 @@
+.header__subtitle {
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  width: 389px;
+  /*
+   * в брифе указано, что ширина должна быть 388px,
+   * но если делать макет pixelperfect, то
+   * станет очевидным, что ширина должна быть 389px,
+   * чтобы на последней строчке оказались
+   * слова «жизни? Узнать →».
+   */
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  z-index: 3;
+}
