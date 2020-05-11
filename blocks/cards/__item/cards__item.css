@@ -1,0 +1,10 @@
+.cards__item {
+  padding-top: 60px;
+  padding-right: 100px;
+  width: 240px;
+  text-align: center;
+}
+
+.cards__item:nth-child(3) {
+  padding-right: 0;
+}

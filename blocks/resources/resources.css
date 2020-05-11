@@ -1,0 +1,10 @@
+@import url(./__logo-zone/resources__logo-zone.css);
+@import url(./__logo/resources__logo.css);
+@import url(./__logo/_pic/resources__logo_pic_arzamas.css);
+@import url(./__logo/_pic/resources__logo_pic_n1.css);
+@import url(./__logo/_pic/resources__logo_pic_strelka.css);
+@import url(./__logo/_pic/resources__logo_pic_polka.css);
+
+.resources {
+  padding: 100px 0 217px 0;
+}

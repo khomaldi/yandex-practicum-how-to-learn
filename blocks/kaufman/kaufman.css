@@ -1,21 +1,13 @@
+@import url(./__triangle/kaufman__triangle.css);
+
 .kaufman {
-  padding: 90px 0;
   position: relative;
+  overflow: hidden;
+  padding: 90px 0;
+  background-color: #1f1f1f;
   /* 
    * легче задать цвет сразу всей секции,
    * чем плодить модификаторы
    */
   color: #fff;
-  /* 
-   * в брифе сказано, что треугольник нужно
-   * добавить картинкой с абсолютным центрированием,
-   * но тогда пришлось бы прописывать z-index для заголовка,
-   * подзаголовка и таблицы, поэтому я добавли треугольник
-   * как фон секции
-   */
-  background-image: url(../../images/kaufman-triangle.svg);
-  background-repeat: no-repeat;
-  background-size: 877px;
-  background-position: top right -210px;
-  background-color: #1f1f1f;
 }
