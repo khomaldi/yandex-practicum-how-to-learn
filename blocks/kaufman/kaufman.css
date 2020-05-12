@@ -5,9 +5,4 @@
   overflow: hidden;
   padding: 90px 0;
   background-color: #1f1f1f;
-  /* 
-   * легче задать цвет сразу всей секции,
-   * чем плодить модификаторы
-   */
-  color: #fff;
 }

@@ -1,11 +1,13 @@
 .khan__buy-link {
+  display: inline-block;
   padding-left: 48px;
   /* Оставляю цвет ссылки чёрный, потому что
    * в первом брифе было сказано сделать цвет
    * всех ссылок таким. и одна синяя ссылка
    * выбивается из общего вида
    */
-  color: #000;
+  color: #2f80ed;
+  vertical-align: top;
   text-decoration: none;
   font-weight: 400;
   font-size: 30px;

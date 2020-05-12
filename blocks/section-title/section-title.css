@@ -1,3 +1,5 @@
+@import url(./_theme/_dark/section-title_theme_dark.css);
+
 .section-title {
   position: relative;
   z-index: 1;
