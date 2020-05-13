@@ -2,5 +2,6 @@
   display: flex;
   justify-content: space-between;
   margin: auto;
+  min-height: inherit;
   width: 90%;
 }
